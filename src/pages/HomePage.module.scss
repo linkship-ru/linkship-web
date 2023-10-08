@@ -1,0 +1,43 @@
+.introductionWrapper {
+  position: absolute;
+  top: 150px;
+  left: 202px;
+  display: flex;
+  align-items: center;
+  gap: 277px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  & > span {
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  & > div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    & > button {
+      height: 44px;
+    }
+
+    & > form {
+      display: flex;
+      align-items: center;
+
+      & > input {
+        width: 400px;
+      }
+    }
+  }
+}
+
+.wave1 {
+  width: 100%;
+  margin-top: 660px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  @media screen and (max-width: 1200px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.logo {
+  color: #383838;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
