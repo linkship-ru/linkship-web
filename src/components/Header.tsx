@@ -5,8 +5,8 @@ export default function Header() {
     <header className={styles.wrapper}>
       <span className={styles.logo}>Linkship</span>
       <div className={styles.right}>
-        <button>Register</button>
-        <button>Login</button>
+        <button className="button">Register</button>
+        <button className="button">Login</button>
       </div>
     </header>
   );

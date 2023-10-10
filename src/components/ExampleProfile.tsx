@@ -35,18 +35,10 @@ export default function ExampleProfile() {
             Hello! My name is {name}, and I use Linkship.
           </span>
           <div className={styles.links}>
-            <LinkButton icon="youtube" color="#F00">
-              YouTube
-            </LinkButton>
-            <LinkButton icon="twitter" color="#1DA1F2">
-              Twitter
-            </LinkButton>
-            <LinkButton icon="twitch" color="#6441A5">
-              Twitch
-            </LinkButton>
-            <LinkButton icon="discord" color="#5865F2">
-              Discord
-            </LinkButton>
+            <LinkButton type="youtube" />
+            <LinkButton type="twitter" />
+            <LinkButton type="twitch" />
+            <LinkButton type="discord" />
           </div>
         </>
       )}

@@ -14,6 +14,13 @@ a {
 }
 
 button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +29,6 @@ button {
   color: #383838;
   font-weight: 600;
   font-size: 18px;
-  border: none;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
@@ -31,10 +37,9 @@ button {
   transition:
     0.3s box-shadow,
     0.3s opacity;
-  cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   box-shadow: none;
   opacity: 0.8;
 }
